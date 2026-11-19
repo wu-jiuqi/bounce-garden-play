@@ -1,0 +1,33 @@
+{
+  "loader": {
+    "bytes": 26959,
+    "sha256": "ae3fe46f1119e19b0faa13ef52c9e3fad0a9827f624e9fe75bf9952987ea56d5",
+    "mime": "application/javascript",
+    "url": "Build/f341f49d9c22f271c23c2e5133472442.loader.js"
+  },
+  "dataUrl": {
+    "bytes": 15221230,
+    "sha256": "0324244e2ceed93c354c7c71efa48f53768185e5610929ff4b8bb3b747f3a4e3",
+    "mime": "application/octet-stream",
+    "parts": [
+      "Build/0324244e2ceed93c354c.0.bin",
+      "Build/0324244e2ceed93c354c.1.bin"
+    ]
+  },
+  "frameworkUrl": {
+    "bytes": 83171,
+    "sha256": "6ca0bdff5d16e6f68692e28e721f2c09d2f9685a4f9532038321b76db9d48e70",
+    "mime": "application/javascript",
+    "parts": [
+      "Build/6ca0bdff5d16e6f68692.0.bin"
+    ]
+  },
+  "codeUrl": {
+    "bytes": 5553921,
+    "sha256": "0610fd20c145564eaa5dc9d9c83c5a69e0e6a1410f2a8b3bd671fca204bab326",
+    "mime": "application/wasm",
+    "parts": [
+      "Build/0610fd20c145564eaa5d.0.bin"
+    ]
+  }
+}

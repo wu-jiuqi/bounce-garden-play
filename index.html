@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+ <meta name="theme-color" content="#fff6e7">
+ <title>喵弹拆箱 · 网页试玩</title>
+ <style>
+  *{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#fff6e7;color:#614d41;font-family:system-ui,"Microsoft YaHei",sans-serif}
+  body{display:grid;place-items:center}main{position:relative;width:min(100vw,46.154vh);height:100%;height:100dvh;background:#fffaf2}
+  canvas{display:block;width:100%;height:100%;outline:none;touch-action:none}#loading{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;flex-direction:column;padding:28px;text-align:center;background:radial-gradient(ellipse at 50% 28%,#fff 0%,#fff6e7 70%)}
+  h1{font-size:32px;letter-spacing:3px;margin:12px 0}p{font-size:14px;line-height:1.8;margin:8px 0}small{opacity:.6;margin-top:24px}button{border:0;border-radius:24px;background:#df8661;color:#fff;font:600 17px system-ui;padding:14px 38px;margin:22px 0;cursor:pointer;box-shadow:0 4px 0 #ba6b4b}button:disabled{opacity:.55;cursor:wait}progress{width:85%;height:12px;accent-color:#df8661;margin:20px 0}#status{min-height:50px;overflow-wrap:anywhere}#error{color:#a33131;white-space:pre-wrap;overflow-wrap:anywhere;font-size:13px}#loading[hidden],progress[hidden],button[hidden]{display:none}
+ </style>
+</head>
+<body><main>
+ <canvas id="unity-canvas" tabindex="0" aria-label="喵弹拆箱游戏"></canvas>
+ <section id="loading"><h1>喵弹拆箱</h1><p>瞄准，弹射，拆开惊喜。</p><button id="start" type="button">开始试玩</button><progress id="progress" value="0" max="1" hidden></progress><p id="status">首次打开需要下载游戏资源，建议使用 Wi-Fi。</p><p id="error" role="alert"></p><small>网页试玩版 · 0.3.0</small></section>
+</main><script src="web-player.js"></script></body>
+</html>
